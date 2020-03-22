@@ -33,27 +33,44 @@
       <h3>Need to touch up a portrait or make a shiny avatar? The intelligent photo retouching tools inside PhotoWorks will hide any imperfections and add a glam finish to your picture. Get rid of pimples, freckles, and spots; smooth out wrinkles and create an even skin tone - all of that with a few mouse clicks, no brushes involved! Whiten your teeth for a luminous smile and <a href="https://photo-works.net/red-eye-removal.php">fix red eyes in photos</a>. Feel like experimenting with your looks? Try changing the eye color - just one mouse click, and your grey eyes will turn green! Make sure to try the built-in photo filters, too - that’s the easiest way to turn an ordinary shot into a studio-quality picture.</h3>
       <div class="effects-check-1">
         <div class="effects-list">
-          <div class="effects-item" data-number-effect="1">
-            Remove blemishes
+          <div class="effects-item" data-class=".ef-img1">
+            <img class="img-white" src="images/icon_1-min.png" alt="Icon retouching software"> <!-- Поменять иконку белого цвета -->
+            <img class="img-yellow" src="images/icon_1_h-min.png" alt="Icon retouching software"> <!-- Поменять иконку желтого цвета -->
+            Remove blemishes  <!-- Изменить текст -->
           </div>
-          <div class="effects-item" data-number-effect="2">
+          <div class="effects-item" data-class=".ef-img2">
+            <img class="img-white" src="images/icon_2-min.png" alt="Icon retouching software">
+            <img class="img-yellow" src="images/icon_2_h-min.png" alt="Icon retouching software">
             Smooth skin
           </div>
-          <div class="effects-item" data-number-effect="3">
+          <div class="effects-item" data-class=".ef-img3">
+            <img class="img-white" src="images/icon_3-min.png" alt="Icon retouching software">
+            <img class="img-yellow" src="images/icon_3_h-min.png" alt="Icon retouching software">
             Sharpen photo
           </div>
-          <div class="effects-item" data-number-effect="4">
+          <div class="effects-item" data-class=".ef-img4">
+            <img class="img-white" src="images/icon_4-min.png" alt="Icon retouching software">
+            <img class="img-yellow" src="images/icon_4_h-min.png" alt="Icon retouching software">
             Add depth
           </div>
-          <div class="effects-item" data-number-effect="5">
+          <div class="effects-item" data-class=".ef-img5">
+            <img class="img-white" src="images/icon_5-min.png" alt="Icon retouching software">
+            <img class="img-yellow" src="images/icon_5_h-min.png" alt="Icon retouching software">
             Instant enhancement
           </div>
-          <div class="effects-item active-effects" data-number-effect="6">
+          <div class="effects-item active-effects" data-class=".ef-img6">
+            <img class="img-white" src="images/icon_6-min.png" alt="Icon retouching software">
+            <img class="img-yellow" src="images/icon_6_h-min.png" alt="Icon retouching software">
             View original
           </div>
         </div>
         <div class="effect-img">
-          <img src="images/effects-1/effect-1-6.jpg" alt="Photo retouching software">
+          <img class="ef-img1" src="images/effects-1/effect-1-1.jpg" alt="Photo retouching software"> <!-- Поменять картинку лица -->
+          <img class="ef-img2" src="images/effects-1/effect-1-2.jpg" alt="Photo retouching software">
+          <img class="ef-img3" src="images/effects-1/effect-1-3.jpg" alt="Photo retouching software">
+          <img class="ef-img4" src="images/effects-1/effect-1-4.jpg" alt="Photo retouching software">
+          <img class="ef-img5" src="images/effects-1/effect-1-5.jpg" alt="Photo retouching software">
+          <img class="ef-img6 ef-img-active" src="images/effects-1/effect-1-6.jpg" alt="Photo retouching software">
         </div>
       </div>
     </section>

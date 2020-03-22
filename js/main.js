@@ -3,8 +3,10 @@
     $('.effects-item').click(function() {
         $('.effects-item').removeClass('active-effects');
         $(this).addClass('active-effects');
-        var srcActive = '<img src="images/effects-1/effect-1-' + $('.effects-item.active-effects').attr('data-number-effect') + '.png" alt="" />';
-        $('.effect-img').html(srcActive);
+        // var srcActive = '<img src="images/effects-1/effect-1-' + $('.effects-item.active-effects').attr('data-number-effect') + '.png" alt="" />';
+        // $('.effect-img').html(srcActive);
+        $('.effect-img img').removeClass('ef-img-active');
+        $($(this).attr('data-class')).addClass('ef-img-active');
     }); 
     $('.effects-item2').click(function() {
         $('.effects-item2').removeClass('active-effects2');
